@@ -45,7 +45,7 @@ body {
 .herosection h1 {
   font-size: 56px;
   font-weight: 400;
-  width: 327px;
+  max-width: 327px;
   margin: 120px 24px 12px 24px;
   color: #ff6b00;
   font-family: 'Crete Round', serif;
@@ -54,7 +54,7 @@ body {
 .herosection h2 {
   font-size: 24px;
   font-weight: 700;
-  width: 327px;
+  max-width: 327px;
   font-family: 'Roboto', sans-serif;
   margin: 24px;
   color: #fff5e1;
@@ -63,7 +63,7 @@ body {
 .herosection p {
   font-size: 16px;
   font-weight: 400;
-  width: 327px;
+  max-width: 327px;
   color: #fff;
   font-family: 'Poppins', sans-serif;
   margin: 24px;

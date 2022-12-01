@@ -11,29 +11,27 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-- [👥 Authors](#authors)
+- [👤 Author](#author)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Mobile Project] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> This project was created to Practice Flexbox and Mobile First Approach
+> This project was created to practice flexbox by building a portfolio
 
-**[Portfolio Mobile Project]** is a webpage
+**[Portfolio]** is a webpage with toolbar and headline section.
 
 ## 🛠 Built With <a name="built-with"></a>
-> HTMl and CSS
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The tech stack used are HTML and CSS.
+> The tech stack used are html and css.
 
-## 👤 Authors <a name="authors"></a>
+## 👤 Author <a name="author"></a>
 
 
-
-👤 **Author**
 - GitHub: [@githubhandle](https://github.com/chibunduonyeje1)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chibunduonyeje1/)
