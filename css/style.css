@@ -93,9 +93,10 @@ ul li {
 /* work section */
 .works-section {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 327px;
+  grid-template-rows: auto auto auto auto auto; 
   background-color: #fff;
+  justify-content: center;
 }
 
 .recentwork {
@@ -104,7 +105,7 @@ ul li {
   max-width: 327px;
 }
 
-.recentwork p {
+.recentwork h2 {
   font-size: 40px;
   font-weight: 400;
   text-align: center;
@@ -129,9 +130,10 @@ ul li {
 .workone .stack {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
-.workone button {
+.workone a {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -148,7 +150,7 @@ ul li {
 
 .worktwo-container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 327px;
   grid-template-rows: auto auto auto auto auto auto;
   margin-bottom: 30px;
 }
@@ -173,7 +175,7 @@ ul li {
   display: flex;
 }
 
-.button {
+button{
   width: 327px;
   height: 48px;
   background: #ff6b00;
@@ -184,6 +186,10 @@ ul li {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
+  border: none;
+}
+
+button a {
   color: #fff;
 }
 
@@ -191,6 +197,7 @@ ul li {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .aboutme h1 {
@@ -210,7 +217,7 @@ ul li {
   color: #f4f5f7;
 }
 
-.aboutme .about-button {
+.aboutme a {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   background-color: #ff6b00;
@@ -220,9 +227,6 @@ ul li {
   padding: 12px;
   font-weight: 700;
   margin: 24px;
-}
-
-.about-button a {
   color: #fff;
 }
 
@@ -253,6 +257,9 @@ ul li {
 .form-background {
   background-color: #fff;
   max-width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .formsection {
@@ -347,6 +354,7 @@ ul li {
   flex-direction: column;
   max-width: 327px;
   margin: 24px;
+  justify-content: center;
 }
 
 .worktwo {
