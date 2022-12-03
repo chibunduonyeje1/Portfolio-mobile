@@ -76,6 +76,15 @@ body {
   margin: 24px 0;
 }
 
+ul li {
+  text-align: center;
+  margin: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+}
+
 .social-icon ul li {
   margin: 10px;
   padding: 10px;
@@ -93,7 +102,6 @@ body {
   border-bottom: 1px solid #212121;
   margin: 100px 24px;
   max-width: 327px;
-
 }
 
 .recentwork p {
@@ -102,13 +110,6 @@ body {
   text-align: center;
   font-family: 'Crete Round', serif;
   margin-bottom: 50px;
-}
-
-.workone {
-  display: flex;
-  flex-direction: column;
-  max-width: 327px;
-  margin: 24px;
 }
 
 .workone h2 {
@@ -128,14 +129,6 @@ body {
 .workone .stack {
   display: flex;
   flex-direction: row;
-}
-.workone .stack h3 {
-  font-weight: 500;
-  font-size: 15px;
-  font-family: 'Inter', sans-serif;
-  padding: 10px;
-  margin: 10px 10px 10px 0;
-  border: 1px solid #8993A4;
 }
 
 .workone button {
@@ -160,23 +153,16 @@ body {
   margin-bottom: 30px;
 }
 
-.worktwo {
-  height: 386px;
-  width: 327px;
-  background-image: url(../images/Img\ Placeholder.png);
-  margin: 12px;
-}
-
-.worktwo h2{
+.worktwo h2 {
   padding: 84px 16px 16px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 32px;
   color: #fff;
 }
 
 .worktwo p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -187,24 +173,14 @@ body {
   display: flex;
 }
 
-.worktwo .stacktwo h3 {
-  font-weight: 500;
-  font-size: 15px;
-  font-family: 'Inter', sans-serif;
-  padding: 10px 12px;
-  margin: 12px;
-  background: rgba(255, 255, 255, 0.24);;
-  color: #fff;
-}
-
 .button {
   width: 327px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   text-align: center;
   padding: 12px;
   margin: -12px 12px 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -219,14 +195,14 @@ body {
 
 .aboutme h1 {
   margin: 120px 24px 0 24px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 72px;
   color: #ff6b00;
 }
 
 .aboutme p {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   max-width: 327px;
@@ -235,7 +211,7 @@ body {
 }
 
 .aboutme .about-button {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 17px;
   background-color: #ff6b00;
   width: 161px;
@@ -246,7 +222,7 @@ body {
   margin: 24px;
 }
 
-.about-button a{
+.about-button a {
   color: #fff;
 }
 
@@ -262,40 +238,21 @@ body {
   border-bottom: 1px solid #fff;
 }
 
-.languages{
+.languages {
   max-width: 327px;
 }
 
 .languages div {
-  display: flex; flex-direction: row;
+  display: flex;
+  flex-direction: row;
   gap: 10px;
   justify-content: center;
   margin-top: 100px;
 }
 
-.languages div h3 {
-  font-weight: 700;
-  font-size: 32px;
-  margin-top: -10px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 32px;
-  font-family: 'Inter';
-}
-
-.languages p {
-  text-align: center;
-  margin: 24px;
-  font-family: 'Inter';
-  font-weight: 400;
-  font-size: 22px;
-  color: #fff;
-}
-
 .form-background {
   background-color: #fff;
   max-width: 327px;
-
 }
 
 .formsection {
@@ -308,7 +265,7 @@ body {
 
 .formsection h3 {
   text-align: center;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   margin: 100px 24px 24px;
@@ -328,13 +285,13 @@ body {
   margin: 24px;
   background-color: #dbd8d7;
   padding: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
 
 .formsection .button {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
   width: 131px;
@@ -343,7 +300,6 @@ body {
   background-color: #ff6b00;
   text-align: center;
   padding: 12px;
-
 }
 
 .formsection .button a {
@@ -357,4 +313,45 @@ body {
   justify-content: center;
   padding: 20px;
   margin-top: 1px;
+}
+
+.languages div h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: -10px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.workone .stack h3 {
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+  border: 1px solid #8993a4;
+}
+
+.worktwo .stacktwo h3 {
+  font-weight: 500;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  padding: 10px 12px;
+  margin: 12px;
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+
+.workone {
+  display: flex;
+  flex-direction: column;
+  max-width: 327px;
+  margin: 24px;
+}
+
+.worktwo {
+  height: 386px;
+  width: 327px;
+  background-image: url(../images/Img\ Placeholder.png);
+  margin: 12px;
 }
