@@ -94,7 +94,7 @@ ul li {
 .works-section {
   display: grid;
   grid-template-columns: 327px;
-  grid-template-rows: auto auto auto auto auto; 
+  grid-template-rows: auto auto auto auto auto;
   background-color: #fff;
   justify-content: center;
 }
@@ -131,6 +131,10 @@ ul li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+button a {
+  color: #fff;
 }
 
 .workone a {
@@ -175,7 +179,7 @@ ul li {
   display: flex;
 }
 
-button{
+button {
   width: 327px;
   height: 48px;
   background: #ff6b00;
@@ -187,10 +191,6 @@ button{
   font-weight: 700;
   font-size: 17px;
   border: none;
-}
-
-button a {
-  color: #fff;
 }
 
 .aboutme {
