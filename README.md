@@ -19,7 +19,7 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-> This project was created to practice flexbox by building a portfolio
+> This project was created to practice flexbox, Grid by building a portfolio
 
 **[Portfolio]** is a webpage with toolbar and headline section.
 
