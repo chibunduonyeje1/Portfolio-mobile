@@ -47,10 +47,12 @@
                 <h2>Multi-Post Stories</h2>
                 <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
                 <div class="stack">
-                    <h3>css</h3>
-                    <h3>html</h3>
-                    <h3>bootstrap</h3>
-                    <h3>Ruby</h3>
+                    <ul>
+                        <li>css</li>
+                        <li>html</li>
+                        <li>bootstrap</li>
+                        <li>Ruby</li>
+                    </ul>
                 </div>
                 <a href="#">See Project</a>
             </div>
@@ -181,14 +183,15 @@
     </section>
     <!-- form section -->
     <section class="form-background">
-        <div class="formsection">
+        <form class="formsection" action="https://formspree.io/f/myyvrjke" method="post">
             <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-            <input type="text" name="" id="" placeholder="Full name">
-            <input type="email" name="" id="" placeholder="Email address">
-            <textarea name="" id="" cols="30" rows="10">Enter Text Here</textarea>
-            <div class="button"><a href="#">Get in touch</a></div>
-        </div>
+            <input type="text" name="name" id="" placeholder="Full name" required maxlength="30">
+            <input type="email" name="email" id="" placeholder="Email address" required>
+            <textarea name="message" id="" cols="30" rows="10" maxlength="500" required placeholder="Enter Text Here"></textarea>
+            <input type="submit" value="Get in touch" id="submit">
+        </form>
     </section>
+
     <footer class="form-background">
         <div class="icons">
             <img src="./images/1.png" alt="">
