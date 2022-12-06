@@ -134,14 +134,22 @@
   font-family: 'Inter', sans-serif;
 }
 
-.workone .stack {
+.languages ul {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.workone .stack ul {
   display: flex;
   flex-direction: row;
   justify-content: start;
   margin-bottom: 10px;
 }
 
-.workone .stack h3 {
+.workone .stack ul li {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -307,14 +315,6 @@
   margin-top: 50px;
 }
 
-.languages ul li {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  color: #fff;
-}
-
 .form-background {
   background-color: #fff;
   max-width: 414px;
@@ -322,6 +322,7 @@
   flex-direction: column;
   justify-content: center;
   justify-items: center;
+  border-top: 1px solid #dfe1e6;
 }
 
 .formsection {
@@ -352,7 +353,7 @@
   font-size: 15px;
 }
 
-.formsection .button {
+.formsection #submit {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -360,12 +361,16 @@
   height: 48px;
   margin: 24px 24px 100px 24px;
   background-color: #ff6b00;
+  color: #fff;
   text-align: center;
   padding: 12px;
+  cursor: pointer;
 }
 
-.formsection .button a {
-  color: #fff;
+.formsection #submit:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .form-background .icons {

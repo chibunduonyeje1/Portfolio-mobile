@@ -39,7 +39,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
+[SUPPORT]
 
 If you like this project send me a message on twitter.
 
