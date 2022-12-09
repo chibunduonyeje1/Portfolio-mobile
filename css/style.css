@@ -621,7 +621,7 @@
 
   .formsection div{
     align-items: flex-start;
-    max-width: 60%;
+    width: 60%;
   }
 
   .formsection h3 {
@@ -632,7 +632,8 @@
   }
 
   .formsection input {
-    width: 610px;
+    max-width: 684px;
+    width: 100%;
   }
   .formsection textarea {
     max-width: 600px;
