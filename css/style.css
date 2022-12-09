@@ -35,7 +35,6 @@
   display: none;
 }
 
-
 /* hero section */
 .herosection {
   height: 100vh;
@@ -286,8 +285,6 @@
   margin-top: 20px;
 }
 
-
-
 .language-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -413,7 +410,6 @@
 /* desktop version */
 @media screen and (min-width:768px) {
 
-  /* header section destop version */
   .header-section {
     background-color: #3c3a39;
   }
@@ -436,7 +432,6 @@
     margin: 10px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
-    
   }
 
   .menu-nav li a {
@@ -451,7 +446,6 @@
     cursor: pointer;
   }
 
-  /* hero section destop version */
   .herosection-wrapper{
     background-color: #1c1a19;
   }
@@ -487,11 +481,11 @@
     max-width: 50%;
   }
 
-  /* work section */
   .work-section {
     max-width: 96%;
     margin: 0 4%;
   }
+  
   .recentworks {
     flex-direction: row;
     justify-content: center;
