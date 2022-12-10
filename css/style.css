@@ -570,16 +570,31 @@
     background-image: url(../images/box25.png);
     background-repeat: no-repeat;
     width: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .box25:hover {
+    transform: scale(1.2);
   }
 
   .box4 {
     background-image: url(../images/box4.png);
     width: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .box4:hover {
+    transform: scale(1.2);
   }
 
   .box36 {
     background-image: url(../images/box36.png);
     width: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .box36:hover {
+    transform: scale(1.2);
   }
 
   .box1 {
@@ -588,6 +603,11 @@
     border: 2px solid #ff6b00;
     padding-bottom: 0;
     width: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .box1:hover {
+    transform: scale(1.2);
   }
 
   .box1 div {
