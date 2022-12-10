@@ -292,6 +292,10 @@
   margin-top: 20px;
 }
 
+.aboutme-img {
+  display: none;
+}
+
 .language-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -593,6 +597,8 @@
   .aboutme {
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     background-image: none;
   }
 
@@ -607,6 +613,7 @@
   }
 
   .aboutme-img {
+    display: block;
     margin-top: 99px;
     max-width: 40%;
   }
