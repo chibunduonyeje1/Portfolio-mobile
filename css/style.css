@@ -470,14 +470,20 @@
 
   .herosection-text h1 {
     max-width: 50%;
+    font-size: 72px;
+    color: #f55800;
+    margin: 180px 24px 12px;
   }
 
   .herosection-text h2 {
     max-width: 50%;
+    font-size: 32px;
+    margin: 24px;
   }
 
   .herosection-text p {
     max-width: 50%;
+    font-size: 20px;
   }
 
   .work-section {
@@ -587,13 +593,22 @@
   .aboutme {
     flex-direction: row;
     align-items: flex-start;
-    background-image: url(../images/about-img-desktop.png);
-    background-position: right;
+    background-image: none;
   }
 
   .aboutme div {
-    max-width: 40%;
+    max-width: 50%;
     margin: 0% 10%;
+  }
+
+  .aboutme-p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .aboutme-img{
+    margin-top: 99px;
+    max-width: 40%;
   }
 
   .language-container {
