@@ -179,6 +179,27 @@
   margin: 12px 0;
 }
 
+.worktwo a {
+  color: #fff;
+}
+
+.aboutme div a {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  background-color: #ff6b00;
+  height: 48px;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.multipost a:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
 .second-worksection {
   display: grid;
   grid-template-columns: 1fr;
@@ -240,10 +261,6 @@
   border: none;
 }
 
-.worktwo a {
-  color: #fff;
-}
-
 /* about me section */
 .aboutme-container {
   background-color: #1c1a19;
@@ -281,15 +298,10 @@
   margin-bottom: 30px;
 }
 
-.aboutme div a {
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  background-color: #ff6b00;
-  height: 48px;
-  padding: 12px;
-  font-weight: 700;
-  color: #fff;
-  margin-top: 20px;
+.aboutme div a:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .aboutme-img {
