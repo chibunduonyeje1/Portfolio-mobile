@@ -640,7 +640,7 @@
   }
   
   .worktwo button:hover{
-    transform: rotate(20deg)
+    transform: rotate(360deg)
     transition: 5s
   }
   .aboutme {
