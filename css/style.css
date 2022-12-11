@@ -638,7 +638,11 @@
   .worktwo button {
     width: 100%;
   }
-
+  
+  .worktwo button:hover{
+    transform: rotate(20deg)
+    transition: 5s
+  }
   .aboutme {
     flex-direction: row;
     align-items: flex-start;
