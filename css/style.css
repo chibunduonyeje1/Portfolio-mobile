@@ -138,7 +138,7 @@
   max-width: 327px;
 }
 
-.multipost h2 {
+.multipost h3 {
   font-size: 32px;
   font-weight: 400;
   font-family: 'Crete Round', serif;
@@ -282,7 +282,7 @@
   margin: 0 24px 36px 24px;
 }
 
-.aboutme div h1 {
+.aboutme div h2 {
   margin: 120px 0 0 0;
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
