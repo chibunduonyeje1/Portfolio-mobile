@@ -73,6 +73,24 @@
   cursor: pointer;
 }
 
+
+#mobile-menu-bar {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
+}
+
 /* hero section */
 .herosection {
   height: 100vh;
