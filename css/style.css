@@ -33,10 +33,58 @@
 
 .navbar .menu img {
   margin: 12px 24px;
+  cursor: pointer;
 }
 
 .menu-nav {
   display: none;
+}
+
+.mobile-menu-bar {
+  position: absolute;
+  margin-top: -40px;
+  height: 100vh;
+  width: 100%;
+  background-color: #3c3a39;
+  display: none;
+}
+
+.mobile-menu-bar ul {
+  margin-top: 70px;
+}
+
+.mobile-menu-bar li {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 20px;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 1px solid #6f6c6b;
+}
+
+.mobile-menu-close {
+  float: right;
+  width: 12px;
+  height: 12px;
+  margin: 40px;
+  cursor: pointer;
+}
+
+#mobile-menu-bar {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 300%;
+  }
 }
 
 /* hero section */
@@ -181,6 +229,10 @@
 
 .worktwo a {
   color: #fff;
+}
+
+.mobile-menu-bar li a {
+  color: #fff5e1;
 }
 
 .aboutme div a {
@@ -459,6 +511,10 @@
     margin: 12px 24px 12px 12px;
     font-weight: 600;
     cursor: pointer;
+  }
+
+  .mobile-menu-bar {
+    display: none;
   }
 
   .herosection-wrapper {
