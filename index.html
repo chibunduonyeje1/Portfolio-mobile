@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script defer src="./js/mobile-menu-function.js"></script>
 </head>
 <body>
     <!-- the header section-->
@@ -14,15 +15,23 @@
         <nav class="navbar">
             <a class="logo" href="https://github.com/chibunduonyeje1">Stephen Onyeje</a>
             <div class="menu">
-                <ul class="menu-nav">
+                <ul class="menu-nav" >
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                     <a href="#"><i class="fa-regular fa-envelope" ></i></a>
                 </ul>
-                <img src="./images/hamburger.png" alt="hamburger">
+                <img id="hamburger-menu" src="./images/hamburger.png" alt="hamburger">
             </div>
         </nav>
+        <div class="mobile-menu-bar" id="mobile-menu-bar" style="display: none;">
+            <img class="mobile-menu-close" id="mobile-menu-close" src="./images/Icon.png" alt="">
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
