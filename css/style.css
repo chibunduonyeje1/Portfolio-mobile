@@ -46,6 +46,7 @@
   height: 100vh;
   width: 100%;
   background-color: #3c3a39;
+  display: none;
 }
 
 .mobile-menu-bar ul {
