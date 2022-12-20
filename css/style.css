@@ -53,17 +53,13 @@
   margin-top: 70px;
 }
 
-.mobile-menu-bar li{
+.mobile-menu-bar li {
   font-size: 32px;
   font-weight: 700;
   margin: 20px;
   padding: 10px;
-  font-family: 'Inter',sans-serif;
-  border-bottom: 1px solid #6f6c6b;;
-}
-
-.mobile-menu-bar li a{
-  color:#fff5e1;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 1px solid #6f6c6b;
 }
 
 .mobile-menu-close {
@@ -73,7 +69,6 @@
   margin: 40px;
   cursor: pointer;
 }
-
 
 #mobile-menu-bar {
   animation-duration: 1s;
@@ -234,6 +229,10 @@
 
 .worktwo a {
   color: #fff;
+}
+
+.mobile-menu-bar li a {
+  color: #fff5e1;
 }
 
 .aboutme div a {
@@ -514,7 +513,7 @@
     cursor: pointer;
   }
 
-  .mobile-menu-bar{
+  .mobile-menu-bar {
     display: none;
   }
 
