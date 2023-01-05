@@ -27,10 +27,6 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.workone img {
-  max-width: 327px;
-}
-
 .navbar .menu img {
   margin: 12px 24px;
   cursor: pointer;
@@ -42,7 +38,7 @@
 
 .mobile-menu-bar {
   position: absolute;
-  margin-top: -40px;
+  top: 0;
   height: 100vh;
   width: 100%;
   background-color: #3c3a39;
@@ -147,6 +143,21 @@
   padding: 10px;
 }
 
+.mobile-menu-bar li a {
+  color: #fff5e1;
+}
+
+.aboutme a {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  background-color: #ff6b00;
+  height: 48px;
+  padding: 12px;
+  font-weight: 700;
+  color: #fff;
+  margin: 12px 24px;
+}
+
 /* work section */
 .first-worksection {
   display: grid;
@@ -180,6 +191,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 8%;
+}
+
+.workone img {
+  width: 100%;
 }
 
 .workone .multipost {
@@ -215,7 +231,7 @@
   margin: 10px 10px 10px 0;
 }
 
-.multipost a {
+.multipost button {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -225,72 +241,63 @@
   padding: 12px;
   cursor: pointer;
   margin: 12px 0;
+  border: none;
 }
 
-.worktwo a {
-  color: #fff;
-}
-
-.mobile-menu-bar li a {
-  color: #fff5e1;
-}
-
-.aboutme div a {
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  background-color: #ff6b00;
-  height: 48px;
-  padding: 12px;
-  font-weight: 700;
-  color: #fff;
-  margin-top: 20px;
-}
-
-.multipost a:hover {
+.multipost button:hover {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
 }
 
-.second-worksection {
+/* second work section */
+.worktwo {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto auto auto;
   justify-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
-.worktwo {
-  margin-top: 25px;
+.card {
   max-width: 327px;
-  background-image: url(../images/Img\ Placeholder.png);
+  height: 386px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
-.worktwo h2 {
-  padding: 84px 16px 16px;
+.card img{
+  max-width: 327px;
+}
+
+.cardComponent {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.card h2 {
+  padding: 16px;
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 32px;
   color: #fff;
 }
 
-.worktwo .desktop-h2 {
-  display: none;
-}
-
-.worktwo p {
+.card p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
-  margin: 16px 16px 5px 16px;
+  padding: 16px;
 }
 
-.worktwo .stacktwo {
+.card .stacktwo {
   display: flex;
+  margin-bottom: 20px;
 }
 
-.worktwo .stacktwo li {
+.card .stacktwo li {
   font-weight: 500;
   font-size: 15px;
   font-family: 'Inter', sans-serif;
@@ -300,7 +307,7 @@
   color: #fff;
 }
 
-.worktwo button {
+.card button {
   height: 48px;
   background: #ff6b00;
   text-align: center;
@@ -308,12 +315,15 @@
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
-  width: 327px;
-  margin-top: 16px;
   border: none;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
 }
 
-/* about me section */
+
+
+/* aboutme section */
 .aboutme-container {
   background-color: #1c1a19;
   padding-bottom: 100px;
@@ -322,42 +332,35 @@
 .aboutme {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: start;
   background-image: url(../images/illustration-about-me-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-  height: 90vh;
+  height: 100vh;
 }
 
-.aboutme div {
-  max-width: 414px;
-  margin: 0 24px 36px 24px;
-}
-
-.aboutme div h2 {
-  margin: 120px 0 0 0;
+.aboutme h2 {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 72px;
   color: #ff6b00;
+  margin: 12px 24px;
 }
 
-.aboutme div p {
+.aboutme p {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #f4f5f7;
-  margin-bottom: 30px;
+  margin: 12px 24px;
 }
 
-.aboutme div a:hover {
+.aboutme a:hover {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
-}
-
-.aboutme-img {
-  display: none;
 }
 
 .language-container {
@@ -365,8 +368,8 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
   background-color: #1c1a19;
-  margin-top: 70px;
   justify-items: center;
+  padding-bottom: 10%;
 }
 
 .end-line {
@@ -501,7 +504,7 @@
     font-family: 'Inter', sans-serif;
   }
 
-  .menu-nav li a {
+  .menu-nav a {
     color: #fff;
   }
 
@@ -532,7 +535,7 @@
     animation: fadeInHeroSection 5s;
   }
 
-  @keyframes fadeInHeroSection {
+   @keyframes fadeInHeroSection {
     from {
       opacity: 0;
       transform: translateY(-10);
@@ -550,7 +553,8 @@
   }
 
   .herosection-text {
-    margin-top: -200px;
+    position: relative;
+    bottom: 55px;
   }
 
   .herosection-text h1 {
@@ -607,114 +611,33 @@
     align-self: baseline;
   }
 
-  .worktwo p {
-    margin-bottom: 20px;
-    margin-top: -5px;
-  }
-
-  .workone .multipost p {
-    line-height: 30px;
-  }
-
-  .second-worksection {
+  .worktwo {
     grid-template-columns: 33.3333% 33.3333% 33.3333%;
     grid-template-rows: 435px 435px;
     max-width: 90%;
-    margin: auto;
-    margin-bottom: 100px;
+    margin:30px auto 100px;
+    gap: 10px;
   }
 
-  .worktwo {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    padding-bottom: 10px;
+  .card {
+    transition: all 0.2s ease;
   }
 
-  .worktwo-button {
-    display: none;
-  }
-
-  .box25 {
-    background-image: url(../images/box25.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    transition: all 0.3s ease;
-  }
-
-  .box25:hover {
-    transform: scale(1.2);
-  }
-
-  .box4 {
-    background-image: url(../images/box4.png);
-    width: 100%;
-    transition: all 0.3s ease;
-  }
-
-  .box4:hover {
-    transform: scale(1.2);
-  }
-
-  .box36 {
-    background-image: url(../images/box36.png);
-    width: 100%;
-    transition: all 0.3s ease;
-  }
-
-  .box36:hover {
-    transform: scale(1.2);
-  }
-
-  .box1 {
-    background-image: url(../images/firstbox-bg.png);
-    background-repeat: no-repeat;
-    border: 2px solid #ff6b00;
-    padding-bottom: 0;
-    width: 100%;
-    transition: all 0.3s ease;
-  }
-
-  .box1:hover {
-    transform: scale(1.2);
-  }
-
-  .box1 div {
-    display: none;
-  }
-
-  .worktwo .mobile-h2 {
-    display: none;
-  }
-
-  .worktwo .desktop-h2 {
-    display: block;
-  }
-
-  .worktwo button {
-    width: 100%;
-  }
-
-  .worktwo button:hover {
-    transform: rotate(360deg);
-    transition: 5s;
+  .card:hover {
+    transform: scale(1.1);
   }
 
   .aboutme {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    background-image: none;
-  }
-
-  .aboutme div {
-    max-width: 50%;
-    margin: 0% 10%;
+    margin-left: 8%;
+    background-image: url(../images/about-img-desktop.png);
+    background-position: right;
+    background-size: 45%;
   }
 
   .aboutme-p {
     font-size: 20px;
     line-height: 32px;
+    max-width: 50%;
   }
 
   .aboutme-img {

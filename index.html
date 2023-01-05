@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <script defer src="./js/mobile-menu-function.js"></script>
+    <script defer src="./assets/js/mobile-menu-function.js"></script>
 </head>
 <body>
     <!-- the header section-->
@@ -16,16 +16,16 @@
             <a class="logo" href="https://github.com/chibunduonyeje1">Stephen Onyeje</a>
             <div class="menu">
                 <ul class="menu-nav" >
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <a href="#"><i class="fa-regular fa-envelope" ></i></a>
                 </ul>
-                <img id="hamburger-menu" src="./images/hamburger.png" alt="hamburger">
+                <img id="hamburger-menu" src="./assets/images/hamburger.png" alt="hamburger">
             </div>
         </nav>
         <div class="mobile-menu-bar" id="mobile-menu-bar">
-            <img class="mobile-menu-close" id="mobile-menu-close" src="./images/Icon.png" alt="">
+            <img class="mobile-menu-close" id="mobile-menu-close" src="./assets/images/Icon.png" alt="">
             <ul>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">About</a></li>
@@ -33,9 +33,8 @@
             </ul>
         </div>
     </header>
-
     <main>
-            <!-- the hero section -->
+        <!-- the hero section -->
         <section class="herosection-wrapper">
             <section class="herosection">
                 <div class="herosection-text">
@@ -44,11 +43,11 @@
                     <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 </div>
                 <ul class="social-icon">
-                    <li><a href="#"><img src="./images/icon1.png" alt="github icon"></a></li>
-                    <li><a href="#"><img src="./images/icon2.png" alt="linkedin icon"></a></li>
-                    <li><a href="#"><img src="./images/icon3.png" alt="angel list icon"></a></li>
-                    <li><a href="#"><img src="./images/icon4.png" alt="twitter icon"></a></li>
-                    <li><a href="#"><img src="./images/icon5.png" alt="medium icon"></a></li>
+                    <li><a href="#"><img src="./assets/images/icon1.png" alt="github icon"></a></li>
+                    <li><a href="#"><img src="./assets/images/icon2.png" alt="linkedin icon"></a></li>
+                    <li><a href="#"><img src="./assets/images/icon3.png" alt="angel list icon"></a></li>
+                    <li><a href="#"><img src="./assets/images/icon4.png" alt="twitter icon"></a></li>
+                    <li><a href="#"><img src="./assets/images/icon5.png" alt="medium icon"></a></li>
                 </ul>
             </section>
         </section>
@@ -60,25 +59,27 @@
                     <h2>My Recent Works</h2>
                     <div class="recentworks-line"></div>
                 </div>
+
                 <div class="workone">
-                    <img class="workone-img" src="./images/workone desktop.png" alt="project image">
+                    <img class="workone-img" src="./assets/images/workone desktop.png" alt="project image">
                     <div class="multipost">
                         <h3>Multi-Post Stories</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p> 
                         <ul class="stack">
                             <li>css</li>
                             <li>html</li>
                             <li>bootstrap</li>
                             <li>Ruby</li>
                         </ul>
-                        <a href="#">See Project</a>
+                        <button type="button">See Project</button>
                     </div>
                 </div>
             </div>
-
-            <div class="second-worksection">
-                <div class="worktwo box1">
-                    <div>
+            
+            <div class="worktwo">
+                <div class="card1 card">
+                    <img src="./assets/images/box-background.png" alt="">
+                    <div class="cardComponent">
                         <h2>Profesional Art <br> Printing Data</h2>
                         <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
                         <ul class="stacktwo">
@@ -86,121 +87,130 @@
                             <li>bootstrap</li>
                             <li>Ruby</li>
                         </ul>
-                        
                     </div>
-                    <button type="button"><a href="#">See Project</a></button>
+                    <button type="button" class="worktwo-button">See Project</button>
                 </div>
 
-                <div class="worktwo box25">
-                    <h2 class="mobile-h2">Profesional Art <br> Printing Data</h2>
-                    <h2 class="desktop-h2">Data Dashboard <br> Healthcare</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="stacktwo">
-                        <li>css</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button" class="worktwo-button"><a href="#">See Project</a></button>
+                <div class="card2 card">
+                    <img src="./assets/images/box-background.png" alt="">
+                    <div class="cardComponent">
+                        <h2>Profesional Art <br> Printing Data</h2>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        <ul class="stacktwo">
+                            <li>css</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="worktwo-button">See Project</button>
                 </div>
 
-                <div class="worktwo box36">
-                    <h2 class="mobile-h2">Profesional Art <br> Printing Data</h2>
-                    <h2 class="desktop-h2">Website Protfolio</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="stacktwo">
-                        <li>css</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button" class="worktwo-button"><a href="#">See Project</a></button>
+                <div class="card3 card">
+                    <img src="./assets/images/box-background.png" alt="">
+                    <div class="cardComponent">
+                        <h2>Profesional Art <br> Printing Data</h2>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        <ul class="stacktwo">
+                            <li>css</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="worktwo-button">See Project</button>
                 </div>
 
-                <div class="worktwo box4">
-                    <h2>Profesional Art <br> Printing Data</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="stacktwo">
-                        <li>css</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button" class="worktwo-button"><a href="#">See Project</a></button>
+                <div class="card4 card">
+                    <img src="./assets/images/box-background.png" alt="">
+                    <div class="cardComponent">
+                        <h2>Profesional Art <br> Printing Data</h2>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        <ul class="stacktwo">
+                            <li>css</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="worktwo-button">See Project</button>
                 </div>
 
-                <div class="worktwo box25">
-                    <h2 class="mobile-h2">Profesional Art <br> Printing Data</h2>
-                    <h2 class="desktop-h2">Data Dashboard <br> Healthcare</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="stacktwo">
-                        <li>css</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button" class="worktwo-button"><a href="#">See Project</a></button>
+                <div class="card5 card">
+                    <img src="./assets/images/box-background.png" alt="">
+                    <div class="cardComponent">
+                        <h2>Profesional Art <br> Printing Data</h2>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        <ul class="stacktwo">
+                            <li>css</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="worktwo-button">See Project</button>
                 </div>
 
-                <div class="worktwo box36">
-                    <h2 class="mobile-h2">Profesional Art <br> Printing Data</h2>
-                    <h2 class="desktop-h2">Website Protfolio</h2>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="stacktwo">
-                        <li>css</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button type="button" class="worktwo-button"><a href="#">See Project</a></button>
+                <div class="card6 card">
+                    <img src="./assets/images/box-background.png" alt="">
+                    <div class="cardComponent">
+                        <h2>Profesional Art <br> Printing Data</h2>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+                        <ul class="stacktwo">
+                            <li>css</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="worktwo-button">See Project</button>
                 </div>
             </div>
         </section>
 
-        
-        
+    
+    
         <!-- About Section -->
         <section class="aboutme-container" id="about"> 
             <div class="aboutme">
-                <div>
-                    <h2>About me</h2>
-                    <p class="aboutme-p">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                    <a href="#">Get My Resume</a>
-                </div>
-                <img class="aboutme-img" src="./images/about-img-desktop.png" alt="background illustration">
+                <h2>About me</h2>
+                <p class="aboutme-p">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                <a href="#">Get My Resume</a>
             </div>
             <div class="end-line"></div>
+        </section>
 
-            <!-- language section -->
-            <section class="language-container">
-                <div class="languages">
-                    <div><img src="./images/Rectangle 55.png" alt="rectangle icon" width="18px" height="18px"><h3>Language</h3></div>
-                    <ul>
-                        <li>Javascript</li>
-                        <li>Ruby</li>
-                        <li>Html</li>
-                        <li>Css</li>
-                    </ul>
-                </div>
-                <!-- Framework section -->
-                <div class="languages">
-                    <div><img src="./images/Rectangle 56.png" alt="square icon" width="18px" height="18px"><h3>Frameworks</h3></div>
-                    <ul>
-                        <li>Bootstrap</li>
-                        <li>Ruby on Rails</li>
-                        <li>RSPec</li>
-                        <li>CapyBara</li>
-                        <li>Selenium</li>
-                    </ul>
-                    
-                </div>
-                <!-- skill section -->
-                <div class="languages">
-                    <div><img src="./images/Rectangle 57.png" alt="circle icon" width="18px" height="18px"><h3>Skills</h3></div>
-                    <ul>
-                        <li>Codekit</li>
-                        <li>Github</li>
-                        <li>Codepen</li>
-                        <li>Gitlab</li>
-                        <li>Terminal</li>
-                    </ul>
-                </div>
-            </section>
+        <!-- language section -->
+        <section class="language-container">
+            <div class="languages">
+                <div><img src="./assets/images/Rectangle 55.png" alt="rectangle icon" width="18px" height="18px"><h3>Language</h3></div>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Ruby</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                </ul>
+            </div>
+
+            <!-- Framework section -->
+            <div class="languages">
+                <div><img src="./assets/images/Rectangle 56.png" alt="square icon" width="18px" height="18px"><h3>Frameworks</h3></div>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li>Ruby on Rails</li>
+                    <li>RSPec</li>
+                    <li>CapyBara</li>
+                    <li>Selenium</li>
+                </ul>
+            </div>
+
+            <!-- skill section -->
+            <div class="languages">
+                <div><img src="./assets/images/Rectangle 57.png" alt="circle icon" width="18px" height="18px"><h3>Skills</h3></div>
+                <ul>
+                    <li>Codekit</li>
+                    <li>Github</li>
+                    <li>Codepen</li>
+                    <li>Gitlab</li>
+                    <li>Terminal</li>
+                </ul>
+            </div>
+
         </section>
 
         <!-- form section -->
@@ -215,16 +225,15 @@
                 </div>
             </form>
         </section>
-
     </main> 
 
     <footer class="form-background">
         <div class="icons">
-            <img src="./images/1.png" alt="github icon">
-            <img src="./images/2222.png" alt="linkedin">
-            <img src="./images/3.png" alt="angel list icon">
-            <img src="./images/4.png" alt="twitter icon">
-            <img src="./images/5.png" alt="medium icon">
+            <img src="./assets/images/1.png" alt="github icon">
+            <img src="./assets/images/2222.png" alt="linkedin">
+            <img src="./assets/images/3.png" alt="angel list icon">
+            <img src="./assets/images/4.png" alt="twitter icon">
+            <img src="./assets/images/5.png" alt="medium icon">
         </div>
     </footer>
 </body>
