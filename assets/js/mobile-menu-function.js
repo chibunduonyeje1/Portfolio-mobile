@@ -10,13 +10,13 @@ closeMenubar.addEventListener('click', () => {
   menuBar.style.display = 'none';
 });
 
-menuBar.addEventListener('focusout', ()=>{
+menuBar.addEventListener('focusout', () => {
   menuBar.style.display = 'none';
-})
+});
 
 const mediaQuery = window.matchMedia('(min-width: 768px)');
-mediaQuery.addEventListener('change', (change)=>{
-  if(change.matches){
-    return menuBar.style.display = 'none';
+mediaQuery.addEventListener('change', (change) => {
+  if (change.matches) {
+    menuBar.style.display = 'none';
   }
-})
+});
