@@ -95,22 +95,25 @@ const projectData = [
   },
 ];
 
-for (let i = 0; i < projectData.length; i += 1) {
-  let techData = '';
+const windowpop = () => {
+  for (let i = 0; i < projectData.length; i += 1) {
+    let techData = '';
 
-  for (let j = 0; j < projectData[i].technologies.length; j += 1) {
-    techData += `<li>${projectData[i].technologies[j]}</li>`;
+    for (let j = 0; j < projectData[i].technologies.length; j += 1) {
+      techData += `<li>${projectData[i].technologies[j]}</li>`;
+    }
+
+    const workSection = document.querySelector('.worktwo');
+    const card = document.createElement('div');
+    card.classList.add('card');
+    workSection.append(card);
+    card.innerHTML = `<img src="${projectData[i].image}" alt="">
+      <div class="cardComponent">
+          <h2>${projectData[i].title}</h2>
+          <p>${projectData[i].description}</p>
+          <ul class="stacktwo">${techData}</ul>
+          <button type="button" class="worktwo-button">See Project</button>
+      </div>`;
   }
-
-  const workSection = document.querySelector('.worktwo');
-  const card = document.createElement('div');
-  card.classList.add('card');
-  workSection.append(card);
-  card.innerHTML = `<img src="${projectData[i].image}" alt="">
-    <div class="cardComponent">
-        <h2>${projectData[i].title}</h2>
-        <p>${projectData[i].description}</p>
-        <ul class="stacktwo">${techData}</ul>
-        <button type="button" class="worktwo-button">See Project</button>
-    </div>`;
-}
+};
+windowpop();
