@@ -61,9 +61,40 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chibunduonyeje1/)
 
+
+## 👥 Collaborators <a name="authors"></a>
+
+👤 **Author1**
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[SUPPORT]
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Image Slider]**
+- [ ] **[ChatBot]**
+- [ ] **[Testimonies Section]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/chibunduonyeje1/Portfolio-mobile/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project send me a message on twitter.
 
