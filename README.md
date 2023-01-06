@@ -25,7 +25,7 @@
 # 📖 [Portfolio] <a name="about-project"></a>
 
 > This project was created to design a portfolio webpage
-> It is built with flexbox, css grid,  media query for responsive web design.
+> It is built with flexbox, css grid,  media query for responsive web design and JavaScript Dom manipulation for menubar and box modal.
 
 **[Portfolio]** is a webpage with toolbar, headline section, project section, about section and contact section.
 
@@ -33,7 +33,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The tech stack used are html and css.
+> The tech stack used are html, css and js.
 
 
 <!-- LIVE DEMO -->
