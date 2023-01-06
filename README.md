@@ -25,7 +25,7 @@
 # 📖 [Portfolio] <a name="about-project"></a>
 
 > This project was created to design a portfolio webpage
-> It is built with flexbox, css grid,  media query for responsive web design.
+> It is built with flexbox, css grid,  media query for responsive web design and JavaScript Dom manipulation for menubar and box modal.
 
 **[Portfolio]** is a webpage with toolbar, headline section, project section, about section and contact section.
 
@@ -33,7 +33,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The tech stack used are html and css.
+> The tech stack used are html, css and js.
 
 
 <!-- LIVE DEMO -->
@@ -54,16 +54,44 @@ You can deploy this project using:
 
 <!-- AUTHOR -->
 
-## 👤 Author <a name="author"></a>
+## 👤 Author1 <a name="Stephen"></a>
 
 
 - GitHub: [@githubhandle](https://github.com/chibunduonyeje1)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chibunduonyeje1/)
 
+👤 **Author2** <a name="Dani"></a>
+- GitHub: [@githubhandle](https:/https://github.com/danifromecuador)
+- Twitter: [@twitterhandle](https://twitter.com/danifromecuador)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dani-mc-322a65256/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[SUPPORT]
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Image Slider]**
+- [ ] **[ChatBot]**
+- [ ] **[Testimonies Section]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/chibunduonyeje1/Portfolio-mobile/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
 
 If you like this project send me a message on twitter.
 
@@ -72,8 +100,6 @@ If you like this project send me a message on twitter.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
