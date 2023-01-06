@@ -137,10 +137,10 @@ You can deploy this project using:
 
 ## 👥 Collaborators <a name="authors"></a>
 
-👤 **Author1**
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Dani Morillo**
+- GitHub: [GitHub](https://github.com/danifromecuador)
+- Twitter: [Twitter](https://twitter.com/danifromecuador)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/danifromecuador/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,9 +149,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Image Slider]**
-- [ ] **[ChatBot]**
-- [ ] **[Testimonies Section]**
+- **[Image Slider]**
+- **[ChatBot]**
+- **[Testimonies Section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
