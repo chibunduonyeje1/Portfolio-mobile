@@ -54,20 +54,17 @@ You can deploy this project using:
 
 <!-- AUTHOR -->
 
-## 👤 Author <a name="author"></a>
+## 👤 Author1 <a name="Stephen"></a>
 
 
 - GitHub: [@githubhandle](https://github.com/chibunduonyeje1)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chibunduonyeje1/)
 
-
-## 👥 Collaborators <a name="authors"></a>
-
-👤 **Author1**
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Author2** <a name="Dani"></a>
+- GitHub: [@githubhandle](https:/https://github.com/danifromecuador)
+- Twitter: [@twitterhandle](https://twitter.com/danifromecuador)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dani-mc-322a65256/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
