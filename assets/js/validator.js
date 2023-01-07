@@ -47,4 +47,8 @@ const storeUserData = () => {
   localStorage.setItem('user', JSON.stringify(data));
 };
 
+nameField.addEventListener('keyup', storeUserData);
+emailField.addEventListener('keyup', storeUserData);
+messageField.addEventListener('keyup', storeUserData);
+
 
