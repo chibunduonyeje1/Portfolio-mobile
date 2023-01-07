@@ -51,4 +51,15 @@ nameField.addEventListener('keyup', storeUserData);
 emailField.addEventListener('keyup', storeUserData);
 messageField.addEventListener('keyup', storeUserData);
 
+const retrieveData = () => {
+  const storedUserData = JSON.parse(localStorage.getItem('user'));
+  if (storedUserData) {
+    nameField.value = storedUserData.userName;
+    emailField.value = storedUserData.userEmail;
+    messageField.value = storedUserData.userMsg;
+  }
+};
 
+window.onload = () => {
+  retrieveData();
+};
