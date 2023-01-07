@@ -10,6 +10,7 @@
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <script defer src="./assets/js/mobile-menu-function.js"></script>
     <script defer src="./assets/js/window-pop.js"></script>
+    <script defer src="./assets/js/validator.js"></script>
 </head>
 
 <body>
@@ -142,9 +143,16 @@
             <form class="formsection" action="https://formspree.io/f/myyvrjke" method="post">
                 <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
                 <div>
-                    <input type="text" name="name" id="" placeholder="Full name" required maxlength="30">
-                    <input type="email" name="email" id="" placeholder="Email address" required>
-                    <textarea name="message" id="" cols="30" rows="10" maxlength="500" required placeholder="Enter Text Here"></textarea>
+                    <label for="fullname" class="input-message" id="name-error"></label>
+                    <input type="text" name="name" id="fullname" placeholder="Full name" required maxlength="30">
+
+                    <label for="email" class="input-message" id="email-error"></label>
+                    <input type="email" name="email" id="email-field" placeholder="Email address" required>
+
+                    <label for="message" class="input-message" id="message-error"></label>
+                    <textarea name="message"  id="message-field" cols="30" rows="10" maxlength="500" required placeholder="Enter Text Here"></textarea>
+
+                    <label for="submit-message" class="input-message" id="submit-error"></label>
                     <input type="submit" value="Get in touch" id="submit">
                 </div>
             </form>
