@@ -1,3 +1,4 @@
+const form = document.querySelector('.formsection');
 const nameField = document.getElementById('fullname');
 const emailField = document.getElementById('email-field');
 const messageField = document.getElementById('message-field');
@@ -7,24 +8,31 @@ const nameErrorMsg = document.getElementById('name-error');
 const emailErrorMsg = document.getElementById('email-error');
 const messageError = document.getElementById('message-error');
 
-submitButton.addEventListener('click', () => {
-  if (nameField.value.length === 0) {
+form.addEventListener('submit', (event) => {
+	event.preventDefault();
+	if(emailField.value === emailField.value.toLowerCase()){
+		form.submit();
+		emailErrorMsg.innerHTML = '';
+	}else{
+		emailErrorMsg.innerHTML = 'Please input your email address in lowercase.';
+		if (nameField.value.length === 0) {
     nameErrorMsg.innerHTML = 'Your Name is required';
-  } else {
+    } else {
     nameErrorMsg.innerHTML = '';
-  }
+    }
 
-  if (emailField.value.length === 0) {
+    if (emailField.value.length === 0) {
     emailErrorMsg.innerHTML = 'Your Email is required';
-  } else if (emailField.value !== emailField.value.toLowerCase()) {
-    emailErrorMsg.innerHTML = 'Please input your email address in lowercase.';
-  } else {
+    }else {
     emailErrorMsg.innerHTML = '';
-  }
+    }
 
-  if (messageField.value.length === 0) {
+    if (messageField.value.length === 0) {
     messageError.innerHTML = 'Your message field is empty';
-  } else {
+    } else {
     messageError.innerHTML = '';
-  }
+    }
+	}
 });
+
+
