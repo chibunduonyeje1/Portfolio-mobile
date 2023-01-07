@@ -36,3 +36,15 @@ submitButton.addEventListener('click', () => {
     messageErrorMsg.innerHTML = '';
   }
 });
+
+// Data Storage to localStorage
+const storeUserData = () => {
+  const data = {
+    userName: nameField.value,
+    userEmail: emailField.value,
+    userMsg: messageField.value,
+  };
+  localStorage.setItem('user', JSON.stringify(data));
+};
+
+
